@@ -5,12 +5,12 @@ element.innerHTML = 'NEW VALUE';
 //move the image
 var img = document.getElementById('madi');
 var marginLeft =0;
-var borderTop = 0;
+var padding = 0;
 function moveRight(){
     marginLeft = marginLeft+0.5;
-    borderTop = borderTop+1;
+    padding = padding+1;
     img.style.marginLeft = marginLeft + 'px';
-    img.style.borderTop = borderTop + 'px';
+    img.style.padding = padding + 'px';
 }
 
 img.onclick = function(){
