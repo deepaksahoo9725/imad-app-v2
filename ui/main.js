@@ -7,8 +7,8 @@ var img = document.getElementById('madi');
 var marginLeft =0;
 var padding = 0;
 function moveRight(){
-    marginLeft = marginLeft+0.5;
-    padding = padding+0.1;
+    marginLeft = marginLeft+0.005;
+    padding = padding+0.01;
     img.style.marginLeft = marginLeft + 'px';
     img.style.padding = padding + 'px';
 }
