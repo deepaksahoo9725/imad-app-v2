@@ -8,7 +8,7 @@ var marginLeft =0;
 var padding = 0;
 function moveRight(){
     marginLeft = marginLeft+0.5;
-    padding = padding+5;
+    padding = padding+0.1;
     img.style.marginLeft = marginLeft + 'px';
     img.style.padding = padding + 'px';
 }
