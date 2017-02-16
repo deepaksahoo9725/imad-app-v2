@@ -6,13 +6,13 @@ element.innerHTML = 'NEW VALUE';
 var img = document.getElementById('madi');
 var marginLeft =0;
 //var padding = 0;
-function moveRight(){
-    marginRight = marginRight+0.005;
+function moveLeft(){
+    marginRight = marginRight+0.05;
    // padding = padding+0.01;
     img.style.marginRight = marginRight + 'px';
    // img.style.padding = padding + 'px';
 }
 
 img.onclick = function(){
-  var interval = setInterval(moveRight,10);
+  var interval = setInterval(moveLeft,10);
 };
